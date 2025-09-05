@@ -178,7 +178,6 @@ h2 {
   font-family: var(--font-accent);
   font-size: 14px;
   font-weight: 400;
-  font-size: 14px;
   line-height: 90%;
 }
 
@@ -194,16 +193,15 @@ h2 {
 }
 
 .card__like-button {
-  background-color: #fff;
-  border: solid 2px black;
   cursor: pointer;
+  background: var(--button-bg);
+  border: 2px solid var(--accent-color);
+  padding: 10px 20px;
+  font-family: var(--font-accent);
+  font-size: 14px;
   min-width: 130px;
 }
 
-.card__icon-button {
-  background-color: transparent;
-  border: none;
-}
 
 /* Фильтры для фото */
 
@@ -390,14 +388,6 @@ h2 {
 
 .card__icon-button:hover {
   border-color: var(--accent-color);
-}
-
-.card__like-button {
-  background: var(--button-bg);
-  border: 2px solid var(--accent-color);
-  padding: 10px 20px;
-  font-family: var(--font-accent);
-  font-size: 14px;
 }
 
 footer {
