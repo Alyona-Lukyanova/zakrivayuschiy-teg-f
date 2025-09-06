@@ -14,15 +14,6 @@
     <link rel="stylesheet" href="./styles/animations.css" />
   </head>
   <body class="page">
-    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
-      <symbol id="floppy" viewBox="0 0 40 40">
-        <path
-          fill="white"
-          d="M.5.5h3v3h-3zM.5 3.5h3v3h-3zM.5 6.5h3v3h-3zM.5 9.5h3v3h-3zM.5 12.5h3v3h-3zM.5 15.5h3v3h-3zM.5 18.5h3v3h-3zM.5 21.5h3v3h-3zM.5 24.5h3v3h-3zM.5 27.5h3v3h-3zM.5 30.5h3v3h-3zM.5 33.5h3v3h-3zM.5 36.5h3v3h-3zM33.5.5v3h-3v-3zM30.5.5v3h-3v-3zM27.5.5v3h-3v-3zM24.5.5v3h-3v-3zM21.5.5v3h-3v-3zM18.5.5v3h-3v-3zM15.5.5v3h-3v-3zM12.5.5v3h-3v-3zM9.5.5v3h-3v-3zM6.5.5v3h-3v-3zM36.5 3.5v3h-3v-3zM9.5 6.5v3h-3v-3zM9.5 3.5v3h-3v-3zM9.5 9.5v3h-3v-3zM30.5 6.5v3h-3v-3zM30.5 3.5v3h-3v-3zM30.5 9.5v3h-3v-3zM24.5 6.5v3h-3v-3zM24.5 3.5v3h-3v-3zM24.5 9.5v3h-3v-3zM30.5 12.5v3h-3v-3zM27.5 12.5v3h-3v-3zM24.5 12.5v3h-3v-3zM21.5 12.5v3h-3v-3zM18.5 12.5v3h-3v-3zM15.5 12.5v3h-3v-3zM12.5 12.5v3h-3v-3zM9.5 12.5v3h-3v-3zM33.5 21.5v3h-3v-3zM30.5 21.5v3h-3v-3zM27.5 21.5v3h-3v-3zM24.5 21.5v3h-3v-3zM21.5 21.5v3h-3v-3zM18.5 21.5v3h-3v-3zM15.5 21.5v3h-3v-3zM12.5 21.5v3h-3v-3zM9.5 21.5v3h-3v-3zM33.5 24.5v3h-3v-3zM9.5 24.5v3h-3v-3zM33.5 27.5v3h-3v-3zM9.5 27.5v3h-3v-3zM33.5 30.5v3h-3v-3zM9.5 30.5v3h-3v-3zM9.5 33.5v3h-3v-3zM33.5 33.5v3h-3v-3zM36.5 36.5v3h-3v-3zM33.5 36.5v3h-3v-3zM30.5 36.5v3h-3v-3zM27.5 36.5v3h-3v-3zM24.5 36.5v3h-3v-3zM21.5 36.5v3h-3v-3zM18.5 36.5v3h-3v-3zM15.5 36.5v3h-3v-3zM12.5 36.5v3h-3v-3zM9.5 36.5v3h-3v-3zM6.5 36.5v3h-3v-3zM39.5 39.5h-3v-3h3zM39.5 36.5h-3v-3h3zM39.5 33.5h-3v-3h3zM39.5 30.5h-3v-3h3zM39.5 27.5h-3v-3h3zM39.5 24.5h-3v-3h3zM39.5 21.5h-3v-3h3zM39.5 18.5h-3v-3h3zM39.5 15.5h-3v-3h3zM39.5 12.5h-3v-3h3zM39.5 9.5h-3v-3h3z"
-        />
-      </symbol>
-    </svg>
-
     <header class="header">
       <div class="rectangle">
         <h1>&lt;/HTML&gt;</h1>
@@ -31,9 +22,9 @@
     </header>
     <main class="content">
       <article class="card">
-        <h3 class="card-title">
+        <h2 class="card-title">
           Фритрек и нулевой спринт: Подготовка к работе
-        </h3>
+        </h2>
 
         <div class="card__image-container">
           <img
@@ -56,8 +47,9 @@
             устала...)
           </p>
           <div class="cards-buttons">
-            <button class="card__icon-button">
+            <button class="card__icon-button" type="button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 width="39"
                 height="36"
@@ -97,7 +89,7 @@
       </article>
 
       <article class="card">
-        <h3 class="card-title">1 спринт: Я — чистый лист</h3>
+        <h2 class="card-title">1 спринт: Я — чистый лист</h2>
         <div class="card__image-container">
           <img
             class="card-image filter-satured"
@@ -120,8 +112,9 @@
             но интересно.
           </p>
           <div class="cards-buttons">
-            <button class="card__icon-button">
+            <button class="card__icon-button" type="button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 width="39"
                 height="36"
@@ -153,7 +146,7 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button">
+            <button class="card__like-button" type="button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -161,7 +154,7 @@
       </article>
 
       <article class="card">
-        <h3 class="card-title">1 спринт: А если не получится?</h3>
+        <h2 class="card-title">1 спринт: А если не получится?</h2>
         <div class="card__image-container">
           <img
             class="card-image filter-invert"
@@ -182,8 +175,9 @@
             сложно.
           </p>
           <div class="cards-buttons">
-            <button class="card__icon-button">
+            <button class="card__icon-button" type="button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 width="39"
                 height="36"
@@ -215,7 +209,7 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button">
+            <button class="card__like-button" type="button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -223,7 +217,7 @@
       </article>
 
       <article class="card">
-        <h3 class="card-title">2 спринт: Погоня за идеалом</h3>
+        <h2 class="card-title">2 спринт: Погоня за идеалом</h2>
         <div class="card__image-container">
           <img
             class="card-image filter-brightness"
@@ -245,8 +239,9 @@
             Место для ваших воспоминаний о начале второго спринта. Было сложно.
           </p>
           <div class="cards-buttons">
-            <button class="card__icon-button">
+            <button class="card__icon-button" type="button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 width="39"
                 height="36"
@@ -278,7 +273,7 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button">
+            <button class="card__like-button" type="button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -286,7 +281,7 @@
       </article>
 
       <article class="card">
-        <h3 class="card-title">2 спринт: О тех, кто рядом</h3>
+        <h2 class="card-title">2 спринт: О тех, кто рядом</h2>
         <div class="card__image-container">
           <img
             class="card-image filter-blur"
@@ -310,8 +305,9 @@
             сложно.
           </p>
           <div class="cards-buttons">
-            <button class="card__icon-button">
+            <button class="card__icon-button" type="button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 width="39"
                 height="36"
@@ -343,7 +339,7 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button">
+            <button class="card__like-button" type="button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -351,7 +347,7 @@
       </article>
 
       <article class="card">
-        <h3 class="card-title">3 спринт: Обходные стратегии</h3>
+        <h2 class="card-title">3 спринт: Обходные стратегии</h2>
         <div class="card__image-container">
           <img
             class="card-image filter-grayscale"
@@ -371,8 +367,9 @@
             Место для ваших воспоминаний о начале третьего спринта. Было сложно.
           </p>
           <div class="cards-buttons">
-            <button class="card__icon-button">
+            <button class="card__icon-button" type="button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 width="39"
                 height="36"
@@ -404,7 +401,7 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button">
+            <button class="card__like-button" type="button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -412,7 +409,7 @@
       </article>
 
       <article class="card">
-        <h3 class="card-title">3 спринт: Когда опускаются руки</h3>
+        <h2 class="card-title">3 спринт: Когда опускаются руки</h2>
         <div class="card__image-container">
           <img
             class="card-image filter-sepia"
@@ -435,8 +432,9 @@
             было сложно.
           </p>
           <div class="cards-buttons">
-            <button class="card__icon-button">
+            <button class="card__icon-button" type="button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 width="39"
                 height="36"
@@ -468,7 +466,7 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button">
+            <button class="card__like-button" type="button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -476,7 +474,7 @@
       </article>
 
       <article class="card">
-        <h3 class="card-title">«Сейчас я здесь»</h3>
+        <h2 class="card-title">«Сейчас я здесь»</h2>
         <div class="card__image-container">
           <img
             class="card-image filter-pop-art"
@@ -501,8 +499,9 @@
             этого.
           </p>
           <div class="cards-buttons">
-            <button class="card__icon-button">
+            <button class="card__icon-button" type="button">
               <svg
+                aria-hidden="true"
                 class="like-icon"
                 width="39"
                 height="36"
@@ -534,41 +533,50 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button">
+            <button class="card__like-button" type="button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
-    </main>
-    <footer>
-      <button class="save-button" id="openModal">
-        <svg class="floppy-icon" width="21" height="21">
-          <use href="#floppy"></use>
-        </svg>
-        <span class="button__text">Сохранить на память</span>
-      </button>
 
-      <dialog class="modal" id="memoryModal">
-        <div class="modal__content">
-          <div class="floppy-text">
-            <svg
-              class="modal__icon"
-              xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
-              viewBox="0 0 40 40"
+      <div class="button-section">
+        <button class="save-button" id="openModal" type="button">
+          <svg
+            class="floppy-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 40 40"
+            width="21"
+            height="21"
+          >
+            <use href="./svg/floppy.svg"></use>
+          </svg>
+          <span class="button__text">Сохранить на память</span>
+        </button>
+
+        <dialog class="modal" id="memoryModal">
+          <div class="modal__content">
+            <div class="floppy-text">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 40 40"
+                width="80"
+              >
+                <use href="./svg/floppy.svg"></use>
+              </svg>
+              <p class="modal__text">Вставьте дискету, чтобы продолжить</p>
+            </div>
+            <button
+              class="modal__button ok-button"
+              id="closeModal"
+              type="button"
             >
-              <use href="./svg/floppy.svg"></use>
-            </svg>
-            <p class="modal__text">Вставьте дискету, чтобы продолжить</p>
+              <span class="button__text">ОК</span>
+            </button>
           </div>
-          <button class="modal__button ok-button" id="closeModal">
-            <span class="button__text">ОК</span>
-          </button>
-        </div>
-      </dialog>
-    </footer>
+        </dialog>
+      </div>
+    </main>
 
     <script src="./scripts/like.js"></script>
   </body>
